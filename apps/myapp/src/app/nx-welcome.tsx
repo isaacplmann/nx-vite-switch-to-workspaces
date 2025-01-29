@@ -1,3 +1,5 @@
+import { Ui } from '@vite/ui';
+
 /*
  * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  This is a starter component and can be deleted.
@@ -8,6 +10,7 @@
 export function NxWelcome({ title }: { title: string }) {
   return (
     <>
+      <Ui></Ui>
       <style
         dangerouslySetInnerHTML={{
           __html: `
