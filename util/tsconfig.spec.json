@@ -1,7 +1,7 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
-    "outDir": "../dist/out-tsc",
+    "outDir": "../dist/util/out-tsc-jest",
     "types": [
       "vitest/globals",
       "vitest/importMeta",
@@ -22,5 +22,10 @@
     "src/**/*.test.jsx",
     "src/**/*.spec.jsx",
     "src/**/*.d.ts"
+  ],
+  "references": [
+    {
+      "path": "./tsconfig.lib.json"
+    }
   ]
 }

@@ -1,15 +1,10 @@
 {
-  "compilerOptions": {
-    "jsx": "react-jsx",
-    "allowJs": false,
-    "esModuleInterop": false,
-    "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "types": ["vite/client"]
-  },
   "files": [],
   "include": [],
   "references": [
+    {
+      "path": "../../ui"
+    },
     {
       "path": "./tsconfig.app.json"
     },

@@ -4,9 +4,12 @@
   "main": "./index.js",
   "types": "./index.d.ts",
   "exports": {
+    "./package.json": "./package.json",
     ".": {
-      "import": "./index.mjs",
-      "require": "./index.js"
+      "default": "./../dist/ui/index.mjs",
+      "import": "./../dist/ui/index.mjs",
+      "require": "./../dist/ui/index.js",
+      "types": "./../dist/ui/index.d.ts"
     }
   }
 }

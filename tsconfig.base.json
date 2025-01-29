@@ -1,9 +1,10 @@
 {
-  "compileOnSave": false,
   "compilerOptions": {
-    "rootDir": ".",
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "emitDeclarationOnly": true,
     "sourceMap": true,
-    "declaration": false,
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
@@ -12,12 +13,6 @@
     "module": "esnext",
     "lib": ["es2020", "dom"],
     "skipLibCheck": true,
-    "skipDefaultLibCheck": true,
-    "baseUrl": ".",
-    "paths": {
-      "@vite/ui": ["ui/src/index.ts"],
-      "@vite/util": ["util/src/index.ts"]
-    }
-  },
-  "exclude": ["node_modules", "tmp"]
+    "skipDefaultLibCheck": true
+  }
 }

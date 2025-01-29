@@ -1,0 +1,18 @@
+{
+    "compileOnSave": false,
+    "extends": "./tsconfig.base.json",
+    "files": [], // intentionally empty
+    "references": [
+        // All projects in the repository
+        {
+            "path": "./apps/myapp"
+        },
+        {
+            "path": "./util"
+        },
+        {
+            "path": "./ui"
+        }
+        // Future generated projects will automatically be added here by the generator
+    ]
+}
