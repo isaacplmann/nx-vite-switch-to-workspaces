@@ -9,7 +9,7 @@
       "default": "./../dist/ui/index.mjs",
       "import": "./../dist/ui/index.mjs",
       "require": "./../dist/ui/index.js",
-      "types": "./../dist/ui/index.d.ts"
+      "types": "./index.d.ts"
     }
   }
 }
